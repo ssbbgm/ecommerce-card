@@ -104,7 +104,8 @@ img {
     color: #fff;
 }
 
-.container .card .contentBx .size {
+.container .card .contentBx .size,
+.container .card .contentBx .color {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,3 +121,58 @@ img {
     letter-spacing: 2px;
     margin-right: 10px;
 }
+
+.container .card .contentBx .size span {
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    display: inline-block;
+    color: #111;
+    background: #fff;
+    margin: 0 5px;
+    transition: 0.5s;
+    color: #111;
+    border-radius: 4px;
+}
+
+.container .card .contentBx .size span:hover {
+    background: #9bdc28;
+}
+
+.container .card .contentBx .color span {
+    width: 20px;
+    height: 20px;
+    background: #ff0;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.container .card .contentBx .color span:nth-child(2){
+    background: #9bdc28;
+}
+
+.container .card .contentBx .color span:nth-child(3){
+    background: #03a9f4;
+}
+.container .card .contentBx .color span:nth-child(4){
+    background: #e91e63;
+}
+
+.container .card .contentBx a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #111;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: 0.5s;
+}
+
+
