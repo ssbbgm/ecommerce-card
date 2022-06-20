@@ -1,0 +1,27 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #131313;
+}
+
+.container {
+    position: relative;
+}
+
+.container .card{
+    position: relative;
+    width: 320px;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}
